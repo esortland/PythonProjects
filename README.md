@@ -1,2 +1,3 @@
 # PythonProjects
-A repository filled with various python scripts I wrote for projects or just for fun. Maybe some can be of use to someone else.
+A collection of various python scripts I wrote for projects or just for fun. 
+Maybe some of them can be useful to someone else.
