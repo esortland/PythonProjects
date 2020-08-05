@@ -3,6 +3,7 @@ from googleapiclient.discovery import build
 from config import decouple
 
 api_key = config('API_KEY')
+export_location = config('EXPORT_DIRECTORY')
 youtube = build('youtube', 'v3', developerKey = api_key)
 
 def main():
@@ -44,7 +45,7 @@ def main():
                                           'Comments'])
 
     #export df to csv
-    vid_df.to_csv(r'/Users/esortlan/Desktop/YT_Data.csv', header = True, index = None)
+    vid_df.to_csv(export_location, header = True, index = None)
     
     print('Your data has been saved to your desktop!\n')
 
