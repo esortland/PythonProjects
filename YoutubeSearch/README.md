@@ -1,6 +1,6 @@
 # Youtube Search
 
-A python script leveraging the Youtube API to channel and video metrics and information based on a user inputed query. 
+A python script leveraging the Youtube API to gather channel and video metrics based on a user inputed query. 
 
 The data is then used to create an excel spreadsheet.
 
